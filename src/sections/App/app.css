@@ -1,0 +1,101 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .contact-section .title {
+    text-align: center;
+    padding-bottom: 1.75rem;
+    font-weight: bold;
+  }
+  
+  .contact-section .contact-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  @media (min-width: 1024px) {
+    .contact-section .contact-options {
+      flex-direction: row;
+    }
+  }
+  
+  .contact-section .contact-options a {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 290px;
+    min-width: 310px;
+    max-width: 330px;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+  }
+  
+  .contact-section .contact-options a.viber {
+    background-color: #573187;
+  }
+  
+  .contact-section .contact-options a.telegram {
+    background-color: #0082be;
+  }
+  
+  .contact-section .contact-options a.phone {
+    background-color: #58b961;
+  }
+  
+  .contact-section .contact-options .icon {
+    font-size: 2.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-section .contact-options .icon {
+      font-size: 3rem;
+    }
+  }
+  
+  .contact-section .contact-options p {
+    font-size: 0.875rem;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-section .contact-options p {
+      font-size: 1rem;
+    }
+  }
+  
+  .contact-section .policy-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-size: 0.875rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .policy-links {
+      padding-left: 5rem;
+      padding-right: 5rem;
+      font-size: 1rem;
+    }
+  }
+
+
+
+ 
+
+  
+  
